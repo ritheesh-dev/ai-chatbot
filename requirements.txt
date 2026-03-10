@@ -1,0 +1,12 @@
+# Backend
+streamlit
+fastapi
+uvicorn
+requests
+
+# Frontend
+Streamlit
+
+# Local model
+ollama
+mistral
