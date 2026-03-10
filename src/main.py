@@ -10,4 +10,6 @@ async def chat(user_input: str):
         "http://localhost:11434/api/generate",
         json={"model": "mistral", "prompt": user_input, "stream": False}
     )
-    return response.json()
+    return {"response": response.json().get("response", "No response from model")}   
+
+
