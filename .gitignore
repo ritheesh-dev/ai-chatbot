@@ -1,0 +1,10 @@
+# Environments
+envi/
+venv/
+__pycache__/
+
+# OS files
+.DS_Store
+
+# Example file
+App/ 
